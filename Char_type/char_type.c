@@ -1,5 +1,5 @@
 
-#include<char_type.h>
+#include "char_type.h"
 
 char_type_t find_char_type(const char input_char)
 {
@@ -21,10 +21,7 @@ char_type_t find_char_type(const char input_char)
     {  
         printf("Character is a Number");  
     }  
-    else if( (input_char >= 0  && input_char <= 47) ||  
-             (input_char >= 58 && input_char <= 64) ||  
-             (input_char >= 91 && input_char <= 96) ||  
-             (input_char >= 123 && input_char <= 127))  
+    else if( (input_char >= 0  && input_char <= 47) ||  (input_char >= 58 && input_char <= 64) ||  (input_char >= 91 && input_char <= 96) ||  (input_char >= 123 && input_char <= 127))  
     {  
         printf("Character is a Symbol");  
     }  
