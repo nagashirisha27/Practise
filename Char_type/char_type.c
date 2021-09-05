@@ -1,6 +1,5 @@
 
 #include "char_type.h"
-#include "unity.h"
 
 char_type_t find_char_type(const char input_char)
 {
